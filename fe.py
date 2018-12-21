@@ -8,7 +8,6 @@ from datetime import datetime
 from collections import OrderedDict
 from selenium.common.exceptions import NoSuchElementException
 
-
 total=0
 ttf=0
 login_page="http://14.139.108.229/w27/MyInfo/w27MyInfo.aspx"
@@ -41,7 +40,7 @@ for x in range(0,295):
                     continue
         try:
             pwd = browser.find_element_by_id("Password1")
-            pwd.send_keys("MEMBER")
+            pwd.send_keys("*******")
         except NoSuchElementException as exception:
                     time.sleep(1)
                     print ("2"+"\t"+r)
@@ -133,41 +132,8 @@ for x in range(0,295):
                     browser.get("http://14.139.108.229/w27/MyInfo/w27MyInfo.aspx")                      
                     i=1
         continue
-    
-#ordered_data = OrderedDict(
- #   sorted(e.items(), key = lambda x:datetime.strptime(x[0], '%d-%b-%Y'), reverse=False))
-
-#di=dict(ordered_data)
-#ordered = OrderedDict(sorted(e.items(), key=lambda t: t[0]))
-#print (ordered)
-#for key,value in sorted(di.items()):
-   # print (key,value)
-   # fi.write(str(key)+'\t'+str(value)+'\n\n')
-
-#print (ordered_data)
-#fi.write(ordered_data)
 file.write("\n\nTotal : "+str(total)+"\nFine can be saved : "+str(ttf))
 file.close()
 f.close()
 fi.close()
-#print (str(total)+"\t"+str(ttf))
 browser.close()
-
-#https://www.aitpune.com/Applied-Science.aspx
-#form1 > div:nth-child(3) > section > div > div > div > div > ul > li.tabs-3.resp-tab-item.hor_1 > span
-#comp-1
-#miyazaki > tbody > tr:nth-child(1) > td:nth-child(2)
-#miyazaki > tbody > tr:nth-child(2) > td:nth-child(2)
-#comp-2
-#form1 > div:nth-child(3) > section > div > div > div > div > div > div.fc-tab-3.resp-tab-content.hor_1.resp-tab-content-active > ul > li:nth-child(2) > a
-#entc-1
-#form1 > div:nth-child(3) > section > div > div > div > div > div > div.fc-tab-3.resp-tab-content.hor_1.resp-tab-content-active > ul > li:nth-child(3) > a
-#ctl00_ContentPlaceHolder1_CtlMyLoans1_grdLoans > tbody > tr:nth-child(3) > td:nth-child(5)
-#ctl00_ContentPlaceHolder1_CtlMyLoans1_grdLoans > tbody > tr:nth-child(2) > td:nth-child(5)
-##ctl00_ContentPlaceHolder1_CtlMyLoans1_grdLoans_ctl02_lblFine
-#//*[@id="ctl00_ContentPlaceHolder1_CtlMyLoans1_grdLoans"]/tbody/tr[2]/td[5]
-#ctl00_ContentPlaceHolder1_CtlMyLoans1_grdLoans_ctl02_lblFine
-#ctl00_ContentPlaceHolder1_CtlMyLoans1_grdLoans_ctl03_lblFine
-#ctl00_ContentPlaceHolder1_CtlMyLoans1_grdLoans_ctl04_lblFine
-#abhinayS1!
-#chauhan.abhinay.singh@gmail.com
