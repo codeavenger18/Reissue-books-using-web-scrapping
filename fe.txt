@@ -1,0 +1,53 @@
+17015	0	0Total = 0
+17018	14	1Total = 0
+17032	0	0Total = 0
+17045	0	0Total = 0
+17053	6	0Total = 0
+17058	6	0Total = 0
+17061	4	0Total = 0
+17067	6	0Total = 0
+17068	4	0Total = 0
+17079	122	0Total = 0
+17085	62	0Total = 0
+17086	6	3Total = 0
+17094	0	0Total = 0
+17098	58	0Total = 0
+17101	84	4Total = 0
+17104	84	4Total = 0
+17105	32	416	11-Dec-201816	11-Dec-201816	11-Dec-201816	11-Dec-2018Total = 64
+17118	16	0Total = 0
+17120	100	0Total = 0
+17123	0	0Total = 0
+17127	0	0Total = 0
+17128	0	0Total = 0
+17131	0	0Total = 0
+17135	10	0Total = 0
+17136	784	2Total = 0
+17139	26	0Total = 0
+17147	22	0Total = 0
+17149	78	0Total = 0
+17151	4	0Total = 0
+17155	0	0Total = 0
+17159	44	1Total = 0
+17170	56	0Total = 0
+17177	8	0Total = 0
+17182	12	0Total = 0
+17185	10	0Total = 0
+17186	0	0Total = 0
+17187	28	2Total = 0
+17194	12	0Total = 0
+17195	4	0Total = 0
+17196	174	4Total = 0
+17198	22	1Total = 0
+17199	12	0Total = 0
+17202	68	1Total = 0
+17206	62	2Total = 0
+17211	8	0Total = 0
+17217	2	1Total = 0
+17219	76	0Total = 0
+17220	0	0Total = 0
+17221	40	1Total = 0
+
+
+Total : 2166
+Fine can be saved : 64
